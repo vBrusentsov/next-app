@@ -59,6 +59,21 @@ export default function Home() {
             className="text-sm sm:text-base font-semibold text-foreground hover:underline hover:underline-offset-4"
             href="/about">Go to About</Link>
 
+        <ul>
+          <li className="text-sm sm:text-base font-semibold text-foreground hover:underline hover:underline-offset-4">
+            <Link href="/test-render-pages/csr-products">CSR Products</Link>
+          </li>
+          <li className="text-sm sm:text-base font-semibold text-foreground hover:underline hover:underline-offset-4">
+            <Link href="/test-render-pages/ssg-products">SSG Products</Link>
+          </li>
+          <li className="text-sm sm:text-base font-semibold text-foreground hover:underline hover:underline-offset-4">
+            <Link href="/test-render-pages/isr-products">ISR Products</Link>
+          </li>
+          <li>
+            <Link href="/test-render-pages/ssr-products">SSR Products</Link>
+          </li>
+        </ul>
+
         <div className="flex flex-col items-center gap-2">
           <h1>
             Welcome to To Do App
